@@ -1,0 +1,282 @@
+body{overflow-y:auto;
+color:#404d55;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:13px;
+
+}
+.pic3{
+    float:none;
+margin:auto;
+    width:160px;
+    height:140px;
+}
+.imgcont{
+width:100%;
+    height:100%;
+}
+div{
+    float:left; 
+}
+
+h1{
+    font-family: 'Finger Paint', cursive;
+color:#70a5b5;
+}
+#Contenedor{
+    position:absolute;
+width:3940px;
+    height:100%;
+     top: 0; left: 0;   
+    
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFFFFF 90%, #A7E8EF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFFFFF 90%, #A7E8EF 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFFFFF 90%, #A7E8EF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 413, color-stop(0.90, #FFFFFF), color-stop(1, #A7E8EF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 90%, #A7E8EF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 90%, #A7E8EF 100%);
+}
+
+.div-nav { 
+    z-index:999; 
+   margin: 35px 0px;
+    position:fixed;
+    width:145px;
+}
+.menunav{  
+    padding:0px 10px;
+ list-style:none ;
+ text-decoration:none;
+}
+
+.menunav >li{
+    
+  text-align:center;
+  margin-top:4px;
+  padding:3px;
+  background-color:rgba(203, 240, 244, 0.48);
+  border-radius:8px;
+}
+.menunav >li:hover{
+	background-color:rgba(49,146,253,0.25);
+	transform:scale(1.1) ;
+	-webkit-transform:scale(1.1);
+	transition: 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;	
+}
+.menunav >li >a{
+    
+    font-family: 'Finger Paint', cursive;
+	font-weight: bold;
+    font-size:14px;
+	color:rgba(26, 25, 25, 0.7);
+	text-decoration:none;
+	display:block;
+}
+.menunav >li a:hover{
+	color: #F8F8F8;
+    transform:scale(1.1) ;
+	font-weight: bold;
+	transition: 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;
+	-webkit-transform:scale(1.1);
+}
+
+ li.active {
+    transform:scale(1.1) ;
+  -webkit-transform:scale(1.1);
+    background-color:rgba(49,146,253,0.25);
+    
+}
+li.active>a{
+     color: #F8F8F8;
+    transform:scale(1.1) ;
+	font-weight: bold;
+  -webkit-transform:scale(1.1);    
+}
+
+#Inicio,#About,#Portafolio,#Contacto {
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center, ellipse closest-corner, #FFFFFF 70%, #dffcff 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse closest-corner, #FFFFFF 70%, #dffcff 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse closest-corner, #FFFFFF 70%, #dffcff 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 413, color-stop(0.7, #FFFFFF), color-stop(1, #dffcff));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse closest-corner, #FFFFFF 70%, #dffcff 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse closest-corner at center, #FFFFFF 70%, #dffcff 100%);
+}
+
+#Inicio{
+	width: 680px;
+    padding:10px;
+	margin: 50px 0px 0px 150px;
+ 
+}
+#About{
+	width: 680px;
+	padding:10px 10px;
+	margin: 50px 0px 0px 150px;
+    text-align:justify;
+}
+#Portafolio{
+	width: 680px;
+	padding:10px;
+	margin: 50px 0px 0px 150px;
+}
+#Contacto{
+	width: 680px;
+	padding:0px 10px;
+	margin: 50px 0px 0px 150px;
+}
+div>.pic1{
+    float:right;
+   margin:5px 5px 5px 5px;
+    
+     width:120px;
+    height:120px;
+}
+div>.pic2{
+   margin:5px 15px 5px 5px;
+    width:160px;
+    height:230px;
+}
+
+
+.face1{  
+    
+     width:100%;
+    height:100%;
+    padding:5px;
+    background-color:rgba(145, 192, 255, 0.65);
+    border-radius:100px;
+  
+} 
+.face2{
+    width:100%;
+    height:100%;
+    padding:5px;  
+  background-color:rgba(145, 192, 255, 0.65);
+}
+
+/* css fromulario*/
+label {
+    display:block;
+    margin-top:10px;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:500px;
+    color: #575757;
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:15px;
+    background:#666666;
+    border:2px solid #b0ecf7;
+    -webkit-box-shadow: 5px 5px 10px #a8bfbf;
+    -moz-box-shadow: 5px 5px 10px #a8bfbf;
+    -o-box-shadow: 5px 5px 10px #a8bfbf;
+    -ms-box-shadow: 5px 5px 10px #a8bfbf;
+    box-shadow: 5px 5px 10px #c0ecf7;
+    padding:10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight:bolder;
+    font-size:12px;
+    color:#fff;
+}
+ textarea:focus, input:focus {
+     outline: none;
+    -webkit-box-shadow: 5px 5px 10px #7eadad;
+    -moz-box-shadow: 5px 5px 10px #7eadad;
+    -o-box-shadow: 5px 5px 10px #7eadad;
+    -ms-box-shadow: 5px 5px 10px #7eadad;
+    box-shadow: 5px 5px 10px #7eadad;
+}
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #a8bfbf;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #a8bfbf;
+}
+:-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #a8bfbf;
+}
+-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #a8bfbf;
+}
+
+textarea {
+    height:100px;
+
+}
+ 
+#submit {
+     -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    width:85px;
+    height:35px;
+    padding:0px;
+    border:none;
+    margin-top:10px;
+    cursor:pointer;
+}
+#copyright{
+    
+    width: auto;
+   font-size:16px;
+	padding:5px;
+	margin: 300px 0px 0px 100px; 
+   -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+    -moz--transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    -webkit-box-shadow: 0px 0px 40px 30px #dffcff;
+    -moz-box-shadow:0px 0px 40px 30px #dffcff;
+    -o-box-shadow:0px 0px 40px 30px #dffcff;
+    -ms-box-shadow: 0px 0px 40px 30px #dffcff;
+    box-shadow: 0px 0px 40px 30px #dffcff;
+    background:#dffcff;
+    border-radius:20px;
+    
+}
+
+#copyright>a{
+text-decoration:none;
+    padding:1px;
+    color:#fff;
+    font-size:18px;
+    text-shadow:2px 2px 2px #6f8083;
+   
+}
